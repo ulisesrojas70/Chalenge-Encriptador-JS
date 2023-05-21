@@ -1,0 +1,393 @@
+body {
+    /* Encriptador - 1 Desktop */
+
+
+    position: relative;
+
+    /* Light blue/light-blue-100 */
+
+    background: #F3F5FC;
+}
+
+.logo {
+    /* Vector */
+    position: absolute;
+    left: 84px;
+    right: 37.43%;
+    top: 40px;
+    bottom: 0%;
+
+}
+
+.area-texto {
+    /* Ingrese el texto aqui */
+    position: absolute;
+    width: 577px;
+    height: 300px;
+    left: 240px;
+    top: 168px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    /* Dark blue/dark-blue-300 */
+    background: #F3F5FC;
+    color: #0A3871;
+    border: none;
+    
+}
+
+.area-texto:focus {
+    outline: 0 none;
+    
+}
+
+.area-texto::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.logo-info {
+    /* Vector */
+    position: absolute;
+    left: 240px;
+    right: 0%;
+    top: 500px;
+    bottom: 0%;
+
+
+}
+
+.info {
+    /* Solo letras minúsculas y sin acentos */
+    position: absolute;
+    left: 264px;
+    right: 0%;
+    top: 488px;
+    bottom: 0%;
+
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+    /* Gray/gray-400 */
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.button-encriptar {
+    position: absolute;
+    left: 240px;
+    right: 0%;
+    top: 550px;
+    bottom: 0%;
+    width: 328px;
+    height: 50px;
+    border: 1px solid #0A3871;
+    background: #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.button-encriptar:hover{
+    background: #0a4ea1;
+}
+
+.button-desencriptar {
+    /* Button */
+    position: absolute;
+    left: 592px;
+    right: 0%;
+    top: 550px;
+    bottom: 0%;
+    width: 328px;
+    height: 50px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+}
+.button-desencriptar:hover{
+    background: #aeb7c4;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    width: 300px;
+    height: 570px;
+    right: 40px;
+    top: 40px;
+
+    background: #FFFFFF;
+
+    box-shadow:  -6px -6px 8px #bebebe;
+    border-radius: 32px;
+}
+
+.nueva-informacion {
+    position: absolute;
+    width: 275px;
+    height: 450px;
+    left: 30px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    border: none;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+}
+
+.boton-copiar {
+    position: absolute;
+    left: 72px;
+    right: 0%;
+    top: 495px;
+    bottom: 0%;
+    width: 200px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.boton-copiar:hover {
+    background-color: #D8DFE8;
+}
+
+ul .m1 {
+    position: absolute;
+    width: 176px;
+    height: 144px;
+    left: 85px;
+    top: 320px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+}
+
+ul .m2 {
+
+    position: absolute;
+    width: 176px;
+    height: 144px;
+    left: 85px;
+    top: 417px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+}
+
+ul li img{
+    position: absolute;
+    width: 176px;
+    height: 144px;
+    left: 80px;
+    top: 110px;
+}
+
+footer {
+    margin-top: 40px;
+    position: absolute;
+    top: 1200px
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        left: 40px
+    }
+
+    .area-texto {
+        width: 668px;
+        height: 300px;
+        left: 40px;
+    }
+
+    ul {
+        left: 40px;
+        top: 640px;
+        width: 630px;
+        height: 315px;
+    }
+
+    ul li img {
+        visibility: hidden;
+    }
+
+    ul .m1 {
+        top: 100px;
+        width: 100%;
+        left: 0;
+    }
+
+    ul .m2 {
+        width: 100%;
+        left: 0;
+        top: 190px;
+    }
+
+    .logo-info {
+        left: 40px;
+    }
+
+    .info {
+        left: 64px;
+    }
+
+    .button-encriptar {
+        left: 40px;
+    }
+
+    .button-desencriptar {
+        left: 385px;
+    }
+
+    .nueva-informacion {
+        width: 600px;
+        height: 250px;
+    }
+
+    .boton-copiar {
+        left: 225px;
+        top: 340px
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        position: unset;
+        margin: 20px;
+    }
+
+    .area-texto {
+        vertical-align: top;
+        width: 100%;
+        margin-left: -20px;
+        margin-top: -70px;
+    }
+
+    ul {
+        left: 20px;
+        top: 580px;
+        width: 85%;
+        height: 200px;
+    }
+
+    ul li img {
+        visibility: hidden;
+    }
+
+    ul .m1 {
+        top: 50px;
+        width: 100%;
+        left: 0;
+    }
+
+    ul .m2 {
+        width: 100%;
+        left: 0;
+        top: 120px;
+    }
+
+    .logo-info {
+        left: 20px;
+        top: 412px;
+    }
+
+    .info {
+        left: 44px;
+        top: 400px;
+    }
+
+    .button-encriptar {
+        left: 20px;
+        width: 100%;
+        top: 450px
+    }
+
+    .button-desencriptar {
+        left: 20px;
+        width: 100%;
+        top: 520px;
+    }
+
+    .nueva-informacion {
+        width: 290px;
+        height: 150px;
+    }
+
+    .boton-copiar {
+        left: 20px;
+        top: 220px;
+        width: 86%;
+    }
+}
