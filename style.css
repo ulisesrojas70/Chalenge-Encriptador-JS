@@ -255,12 +255,6 @@ ul li img{
     top: 110px;
 }
 
-footer {
-    margin-top: 40px;
-    position: absolute;
-    top: 1200px
-}
-
 @media screen and (max-width: 768px) {
     .logo {
         left: 40px
